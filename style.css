@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: #eeaeca;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo do formulário */
+#contato-form {
+    background-color: #ffffff48;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para as divs que contêm ícones e campos de entrada */
+.nome, .email, .telefone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Estilo para as imagens nos campos de entrada */
+.nome img, .email img, .telefone img, .mensagem img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Estilo para os campos de entrada de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccccccba;
+    border-radius: 5px;
+}
+
+/* Estilo para o botão "Adicionar Contato" */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+button[type="submit"]:hover {
+    background-color:  rgb(81, 92, 205);
+}
+
+/* Estilo para os botões de mostrar e ocultar contatos */
+.botoes {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    margin-top: 20px;
+}
+
+/* Estilo para os botões de mostrar e ocultar contatos */
+.botoes button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.botoes button:hover {
+    background-color: rgb(81, 92, 205);
+}
+
+/* Estilo para a seção de mensagem */
+
+
+.mensagem {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para a caixa de texto da mensagem */
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para a lista de contatos */
+#contato-lista {
+    list-style: none;
+    margin-top: 20px;
+}
+
+/* Estilo para os itens da lista de contatos */
+#contato-lista li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
